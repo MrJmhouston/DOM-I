@@ -54,17 +54,6 @@ document.getElementById('ctah1').innerText = siteContent["cta"]["h1"];
 let brCta = document.createElement("BR");
 brCta.setAttribute("id", "myBr");
 
-// function brFunction () {
-// let hBr = document.getElementsByTagName("h1")[0];
-//   let i = 0;
-
-//   let div = document.getElementsByClassName('cta-text');
-
-//   for (i = 0; i < hOneCta.length; i++) {
-//     let brCta = document.createElement("BR");
-//     div.insert(brCta, hOneCta[i]);
-//   }
-// }
 
 //cta button
 let buttCta = document.getElementsByTagName('button')[0];
